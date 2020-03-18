@@ -5,56 +5,51 @@
         "webhook":"https://lazy-cow-87.localtunnel.me/api/messages"
     },
     "bot": [{
-            "contains": [],
-            "exact": ["hi"],
-            "response": "hello"
+            "contains": ["hola"],
+            "exact": ["hola"],
+            "response": "Hola! Se ha comunicado con el teléfono oficial de la Dra. Martina Guirado, Defensora del Servicio Público Provincial de Defensa Penal.\nEn el caso de que tenga una consulta, antes de formularla envíe la palabra “consulta” para desplegar una lista de consultas frecuentes, la cual puede brindarle una respuesta inmediata.\nSi su consulta no fue solventada o ha sido solventada parcialmente, por las respuestas automáticas, aguarde la respuesta personal de la Dra. Guirado o de alguno de sus asistentes.\nLe pedimos por favor que se identifique con nombre y apellido propios, y de la persona asistida por esta Defensora, para tener una referencia de la causa."
         },
         {
             "contains": [],
-            "exact": ["hello"],
-            "response": "hi",
+            "exact": ["consulta"],
+            "response": "Escriba el número correspondiente a a la opción.\n1. Teléfono de la oficina de la Dra. Guirado\n2. Correo electrónico de la Dra. Guirado\n3. Dónde queda la Defensoría?\n4. Dónde queda la Fiscalía?\n5. Quiero saber cuando es mi próxima audiencia\n6. Quiero saber el estado de mi causa\n7. Tengo testigos para aportar a la causa\n8. Quiero que me devuelvan mis pertenencias/vehículo\n9. Quiero un traslado de Unidad Penitenciaria\n10. El juez dispuso que tengo que ir a firmar a la O.G.J. (Oficina de Gestión Judicial), del Centro Penal de Rosario\n11. La Dra. me comunicó la posibilidad de hacer una probation (suspensión de juicio a prueba)\n12. Tengo que depositar fianza/reparación para las víctimas\n13. Tengo que firmar en el Patronatonato",
             "file":"noFile.png"
         },
         {
             "contains": [],
-            "exact": ["hy"],
-            "response": "hi",
+            "exact": ["1"],
+            "response": "Quiero que me devuelvan mis pertenencias/vehículo\nEn el caso de que se trate de un vehículo necesitamos:\n-Título o, en el caso de estar el mismo en trámite: boleto de compraventa y formulario 08 presentado en el registro (que es el que se presenta para iniciar la transferencia del vehículo)\n-Toda documentación extra que se pueda aportar, mejor. (cédula verde, patente al día, último comprobante del seguro, etc)\nEn su defecto, convocar al titular registral del vehículo para que se presente en la sede de la Defensoría (Sarmiento 2801 de Rosario), para tramitar la restitución del vehículo con la Oficina de Restituciones. La cual no depende de la Dra. Guirado ni de sus asistentes, debido a que, en este caso, el titular registral no sería su asistido.\nEn el caso de ser otro objeto (como celulares, ropa, billeteras, documentos, accesorios varios):\n- Dar una descripción lo mayor detallada posible (marca, modelo, color, estado, detalles)\nLa documentación puede ser llevada a la sede de la Defensoría (Sarmiento 2801, Rosario) o ser enviada por este mismo medio a través de fotografías, las cuales deberán ser con buena iluminación y lo más legibles posible para poder ser escaneadas por nuestra oficina.\nUna vez proporcionada toda la documentación necesaria, nuestra oficina procederá a realizar el pedido a la Fiscalía a través de un escrito del cual puede solicitar, por este mismo medio, una copia digital. El plazo de presentación del escrito será de 48hs hábiles.\nLuego de ser presentada, la Fiscalía responderá a través de un decreto del Fiscal si se hace lugar o no a la restitución y por qué.\nSe advierte que la respuesta de Fiscalía puede demorarse, y no depende de su Defensor. Con la copia que le brindaremos, ya sea por este medio o en persona, usted mismo podrá ir a Fiscalía a reclamar.",
             "file":"github.png"
         },
         {
             "contains": [],
-            "exact": ["hiee"],
-            "response": "hi"
+            "exact": ["2"],
+            "response": "martina.guirado@sppdp.gob.ar"
         },
         {
             "contains": [],
-            "exact": ["hey"],
-            "response": "hi"
-        },
-        {
-            "contains": ["michhami","dukkadam"],
-            "exact": [],
-            "response": "Michhami Dukkadam 🙏"
-        },
-        {
-            "contains": ["happy","birthday","bday"],
-            "exact": [],
-            "response": "Thank you"
+            "exact": ["3"],
+            "response": "Dónde queda la Defensoría?\nEn Sarmiento 2801, en el Centro de Justicia Penal de Rosario. Debe ingresar por la entrada de calle Sarmiento y dirigirse al ala sur del edificio (sobre calle Rueda), es decir, apenas entra se dirige hacia su izquierda y continúa hasta el fondo."
         },
         {
             "contains": [],
-            "exact": ["hbd"],
-            "response": "Thank you"
+            "exact": ["4"],
+            "response": "Dónde queda la Fiscalía?\nEn Sarmiento 2850, en el Centro de Justicia Penal de Rosario. Debe ingresar por la entrada de calle Sarmiento y dirigirse al ala norte del edificio (sobre calle Virasoro), es decir, apenas entra se dirige a su derecha y continúa hasta el fondo."
         },
         {
-            "contains": ["શુભકામના","જન્મદિન"],
-            "exact": [],
-            "response": "આભાર 🙏"
+            "contains": [],
+            "exact": ["5"],
+            "response": "Quiero declarar en la causa/Tengo testigos para aportar a la causa\nDe las personas que vendrán a declarar necesitamos que nos aporte la mayor cantidad de estos datos: nombre y apellido, domicilio y números de teléfono donde lo podamos contactar o bien puede pasarle este número de teléfono a la persona para que se contacte con nosotros\nTambién puede enviarnos un audio de WhatsApp donde debe comenzar diciendo que es su voluntad declarar y presta su consentimiento para que el audio sea transcripto como estrevista telefónica"
         },
         {
-            "contains": ["janmdin","hardik","shubhkaamna"],
+            "contains": [],
+            "exact": ["6"],
+            "response": "Quiero un traslado de Unidad Penitenciaria\nDeberán presentar, por este mismo medio a través de una fotografía con buena iluminación y legibilidad, o en la sede de la Defensoría Pública (Sarmiento 2801 de Rosario), una manifestación escrita y firmada por el defendido en la que el mismo manifieste expresamente su voluntad de ser trasladado. En su defecto, un llamado telefónico del defendido donde lo manifieste expresamente. En ambos casos especificando la Unidad Penitenciaria de destino y los motivos que lo impulsan.\nSi bien la Defensa oficia el traslado en menos de 48 horas, la efectivización del mismo es discrecional del Servicio Penitenciario. No están obligados a hacer el traslado si no existe un fundamento sólido. Valorarán el cupo disponible en la Unidad Penitenciaria de destino y los motivos que impulsan el traslado. Por ello, para tener más posibilidades de que se realice dicho traslado, toda documentación que sirva para acreditar motivos, es bienvenida.\nEn caso de tener documentación que lo respalde, puede enviarla con este medio como fotografía -con buena iluminación y legibilidad-, o acercar la misma a la sede de la Defensoria Pública"
+        },
+        {
+            "contains": ["7"],
             "exact": [],
-            "response": "aabhar 🙏"
+            "response": "El Juez dispuso que tengo que ir a firmar a la O.G.J. (Oficina de Gestión Judicial), del Centro de Justicia Penal\nUna vez finalizada la audiencia donde se resolvió su deber de firmar, comienza su obligación de hacerlo. Puede realizarlo de Lunes a Viernes, en el horario comprendido entre las 7 a 18hs.\nLa primera vez que lo haga debe concurrir de mañana y con el DNI, para que pueda ser identificado. Los empleados de la O.G.J. lo asistirán para registrar su huella en la máquina que se encuentra en la entrada del establecimiento. No es necesario que concurra a la Defensoría, ya que quienes se encargan de la tarea son los empleados del juzgado.\n-Firma semanal: usted puede concurrir a firmar cualquier día de la semana que desee. No necesariamente debe respetar un día específico.\n-Firma quincenal: usted puede concurrir a firmar cualquier día de los comprendidos entre esos quince, no es necesario que sea uno en específico.\n-Firma mensual: usted puede concurrir a firmar cualquier día de los comprendidos en el mes, no es necesario que sea uno en específico.\n-Firma de dos o más veces por semana/quincena/mes: puede concurrir los días que desee. Sólo debe asegurarse de completar la cantidad de firmas solicitadas por semana/quincena/mes."
         },
         {
             "contains": [],
@@ -64,9 +59,9 @@
         }
     ],
     "blocked": [],
-    "noMatch":"",
-    "smartreply":{
+    "noMatch":""
+    , "smartreply":{
         "suggestions":["👍","Ha","aevu m?","Okay","Thanks"],
         "clicktosend":true
-    }
+    } 
 }
