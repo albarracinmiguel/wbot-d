@@ -61,12 +61,13 @@ async function Main() {
         });
         progressBar.update(100);
         spinner.stop("Downloading chrome ... done!");
-        //console.log(revisionInfo.executablePath);
+        console.log(revisionInfo.executablePath);
         spinner.start("Launching Chrome");
         var pptrArgv = [];
         if (argv.proxyURI) {
             pptrArgv.push('--proxy-server=' + argv.proxyURI);
         }
+        console.log(argv.proxyURI);
         const extraArguments = Object.assign({});
         extraArguments.userDataDir = constants.DEFAULT_DATA_DIR;
         const browser = await puppeteer.launch({
