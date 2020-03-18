@@ -8,7 +8,7 @@ var path = require("path");
 var argv = require('yargs').argv;
 var rev = require("./detectRev");
 var constants = require("./constants");
-var configs = require("../bot");
+var configs = require("./bot");
 
 //console.log(ps);
 
