@@ -18,6 +18,11 @@
         {
             "contains": [],
             "exact": ["1"],
+            "response": "Teléfono 4861200 interno: 5619. Será atendido por sus asistentes en primera instancia.\nMuchas gracias."
+        },
+        {
+            "contains": [],
+            "exact": [""],
             "response": "Quiero que me devuelvan mis pertenencias/vehículo\nEn el caso de que se trate de un vehículo necesitamos:\n-Título o, en el caso de estar el mismo en trámite: boleto de compraventa y formulario 08 presentado en el registro (que es el que se presenta para iniciar la transferencia del vehículo)\n-Toda documentación extra que se pueda aportar, mejor. (cédula verde, patente al día, último comprobante del seguro, etc)\nEn su defecto, convocar al titular registral del vehículo para que se presente en la sede de la Defensoría (Sarmiento 2801 de Rosario), para tramitar la restitución del vehículo con la Oficina de Restituciones. La cual no depende de la Dra. Guirado ni de sus asistentes, debido a que, en este caso, el titular registral no sería su asistido.\nEn el caso de ser otro objeto (como celulares, ropa, billeteras, documentos, accesorios varios):\n- Dar una descripción lo mayor detallada posible (marca, modelo, color, estado, detalles)\nLa documentación puede ser llevada a la sede de la Defensoría (Sarmiento 2801, Rosario) o ser enviada por este mismo medio a través de fotografías, las cuales deberán ser con buena iluminación y lo más legibles posible para poder ser escaneadas por nuestra oficina.\nUna vez proporcionada toda la documentación necesaria, nuestra oficina procederá a realizar el pedido a la Fiscalía a través de un escrito del cual puede solicitar, por este mismo medio, una copia digital. El plazo de presentación del escrito será de 48hs hábiles.\nLuego de ser presentada, la Fiscalía responderá a través de un decreto del Fiscal si se hace lugar o no a la restitución y por qué.\nSe advierte que la respuesta de Fiscalía puede demorarse, y no depende de su Defensor. Con la copia que le brindaremos, ya sea por este medio o en persona, usted mismo podrá ir a Fiscalía a reclamar."
         },
         {
