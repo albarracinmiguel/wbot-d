@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer-core');
+const puppeteer = require('puppeteer');
 const _cliProgress = require('cli-progress');
 require("./welcome");
 var spinner = require("./step");
@@ -48,6 +48,7 @@ async function Main() {
         var appconfig = await utils.externalInjection("bot.json");
         appconfig = JSON.parse(appconfig);
         spinner.start("Downloading chrome\n");
+        console.log(process.cwd());
         const browserFetcher = puppeteer.createBrowserFetcher({
             path: process.cwd()
         });
@@ -55,7 +56,7 @@ async function Main() {
         progressBar.start(100, 0);
         var revNumber = await rev.getRevNumber();
         const revisionInfo = await browserFetcher.download(revNumber, (download, total) => {
-            //console.log(download);
+        //    console.log(download);
             var percentage = (download * 100) / total;
             progressBar.update(percentage);
         });
@@ -71,8 +72,7 @@ async function Main() {
         const extraArguments = Object.assign({});
         extraArguments.userDataDir = constants.DEFAULT_DATA_DIR;
         const browser = await puppeteer.launch({
-            executablePath: revisionInfo.executablePath,
-            headless: appconfig.appconfig.headless,
+            headless: true,
             userDataDir: path.join(process.cwd(), "ChromeSession"),
             devtools: false,
             args: [...constants.DEFAULT_CHROMIUM_ARGS, ...pptrArgv], ...extraArguments
