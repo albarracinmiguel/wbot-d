@@ -2,8 +2,6 @@
 
 # WBOT 
 
- [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal]][paypal-donations] 
-
 
 > A simple Nodejs BOT for whatsapp web
 
